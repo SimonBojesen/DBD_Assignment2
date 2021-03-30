@@ -43,7 +43,8 @@ Det vil sige vi skal bruge 10 bits per element ved en falsk positiv rate på 1%.
 Ved at indsætte 0.05 på E’s plads kom vi frem til tallet: 6.22368
 Det vil sige vi skal bruge 7 bits per element ved en falsk positiv rate på 5%.
 
-8. If you were to store one million ASCII strings with an average size of 10 characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?. 
+8. If you were to store one million ASCII strings with an average size of 10 characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?
+
 Vi antager at skulle gange med 10 millioner da der skal gemmes 1 million strenge med 10 char størrelse.
 
 6.22368 * 10.000.000 = 62.236.800 bits
