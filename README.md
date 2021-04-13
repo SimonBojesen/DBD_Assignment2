@@ -32,7 +32,7 @@ Bloom filters are used in hbase as an incredible optimization. Solve the followi
 * Man kan heller ikke hente tallet ud af listen, hvis man finder ud af om det er i listen.
 4. Se Java kode.
 5. If you are to store one million ASCII strings with an average size of 10 characters in a hash set, what would be the approximate space consumption?
-* 100.000.000 (Vi ved det ikke gætter bare ;))
+* 100.000.000bits (Vi ved det ikke gætter bare ;))
 6. How many bits per element are required for a 1% false positive rate?
 	
 The following equation gives the required number of bits of space per inserted key, where E is the false positive rate. b = 1.44log2(1/E)
