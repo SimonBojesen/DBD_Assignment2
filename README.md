@@ -39,6 +39,7 @@ The following equation gives the required number of bits of space per inserted k
 
 Ved at indsætte 0.01 på E’s plads kom vi frem til tallet: 9.56736
 Det vil sige vi skal bruge 10 bits per element ved en falsk positiv rate på 1%.
+
 7. How many bits per element are required for a 5% false positive rate?
 Ved at indsætte 0.05 på E’s plads kom vi frem til tallet: 6.22368
 Det vil sige vi skal bruge 7 bits per element ved en falsk positiv rate på 5%.
